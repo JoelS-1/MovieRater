@@ -17,11 +17,11 @@ namespace MovieRater.Data
         public int StarRatingNumber { get; set; }
 
         [ForeignKey(nameof(Movie))]
-        public int MovieId { get; set; }
-        public Movie Movie { get; set; }
+        public int? MovieId { get; set; }
+        public virtual Movie Movie { get; set; }
 
         [ForeignKey(nameof(Show))]
-        public int ShowId { get; set; }
-        public Show Show { get; set; }
+        public int? ShowId { get; set; }
+        public virtual Show Show { get; set; }
     }
 }
