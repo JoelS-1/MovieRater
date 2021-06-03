@@ -17,7 +17,7 @@ namespace MovieRater.Models
 
         [MaxLength(8000)]
         public string Description { get; set; }
-        //public double StarRating { get; set; }
+        
         public MaturityRating MaturityRating { get; set; }
     }
 }
