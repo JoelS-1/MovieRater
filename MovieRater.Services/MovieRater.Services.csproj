@@ -55,7 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+
+    <Compile Include="RatingService.cs" />
+    <Compile Include="StarRating.cs" />
+
     <Compile Include="ShowService.cs" />
+
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -63,11 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MovieRater.Data\MovieRater.Data.csproj">
+
+      <Project>{F97C0D78-4FBB-4510-B0D7-C458A21D8BDE}</Project>
+      <Name>MovieRater.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MovieRater.Models\MovieRater.Models.csproj">
+      <Project>{379E36AD-F633-4E88-9A7E-C597965BAEF1}</Project>
+
       <Project>{f97c0d78-4fbb-4510-b0d7-c458a21d8bde}</Project>
       <Name>MovieRater.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\MovieRater.Models\MovieRater.Models.csproj">
       <Project>{379e36ad-f633-4e88-9a7e-c597965baef1}</Project>
+
       <Name>MovieRater.Models</Name>
     </ProjectReference>
   </ItemGroup>
