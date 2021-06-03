@@ -17,15 +17,12 @@ This is accomplished by...
 We used the following external resources in our project:
 
 [Google Docs](https://docs.google.com/document/d/1z67v_6i--hHGJ_ifrGpZaZFrlzzRdnEitMYWc4E7gz0/edit?usp=sharing) for planning  
-https://docs.google.com/document/d/1z67v_6i--hHGJ_ifrGpZaZFrlzzRdnEitMYWc4E7gz0/edit?usp=sharing
 
 [Trello Board](https://trello.com/b/2ZiITVxt/efa-agile-project)  
-https://trello.com/b/2ZiITVxt/efa-agile-project
 
 ## Techonologies Used
 Visual Studio Community 2019  
 [GitHub](https://github.com/)  
-https://github.com/
 
 ## Collaborators
 Luis Costilla  
